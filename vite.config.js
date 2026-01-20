@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/upload/",   // 👈 repo name
+  base: "/upload/"   // IMPORTANT: must match your repo name exactly
 });
